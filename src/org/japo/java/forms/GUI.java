@@ -95,7 +95,7 @@ public class GUI extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        lblTerminar = new javax.swing.JButton();
+        btnTerminar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Here comes the Title");
@@ -107,14 +107,14 @@ public class GUI extends javax.swing.JFrame {
         });
         getContentPane().setLayout(new java.awt.GridBagLayout());
 
-        lblTerminar.setFont(new java.awt.Font("Calibri", 1, 36)); // NOI18N
-        lblTerminar.setText("TERMINAR");
-        lblTerminar.addActionListener(new java.awt.event.ActionListener() {
+        btnTerminar.setFont(new java.awt.Font("Calibri", 1, 36)); // NOI18N
+        btnTerminar.setText("TERMINAR");
+        btnTerminar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                lblTerminarActionPerformed(evt);
+                btnTerminarActionPerformed(evt);
             }
         });
-        getContentPane().add(lblTerminar, new java.awt.GridBagConstraints());
+        getContentPane().add(btnTerminar, new java.awt.GridBagConstraints());
 
         setSize(new java.awt.Dimension(306, 228));
         setLocationRelativeTo(null);
@@ -124,12 +124,12 @@ public class GUI extends javax.swing.JFrame {
         procesarCerrarVentana(evt);
     }//GEN-LAST:event_formWindowClosing
 
-    private void lblTerminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lblTerminarActionPerformed
+    private void btnTerminarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTerminarActionPerformed
         UtilesSwing.terminarPrograma(this);
-    }//GEN-LAST:event_lblTerminarActionPerformed
+    }//GEN-LAST:event_btnTerminarActionPerformed
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton lblTerminar;
+    private javax.swing.JButton btnTerminar;
     // End of variables declaration//GEN-END:variables
     //
     // Evento de Ventana - Cerrando
